@@ -5,7 +5,7 @@ public class Analytics {
 
     void moneyCollection(){
         HashMap<String, Float> invoiceMap = CoffeeMachine.invoiceMap;
-        System.out.println("Total coffees consumed and their price");
+        System.out.println("Coffee consumed and their price");
         for(Map.Entry<String,Float> map:invoiceMap.entrySet()){
             System.out.println(map.getKey()+"\n"+map.getValue()+"$ collected from "+map.getKey()+" coffee");
         }

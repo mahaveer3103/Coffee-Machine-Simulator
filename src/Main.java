@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-//        String coffee = sc.nextLine();
         CoffeeMachine coffeeMachine = new CoffeeMachine();
         while (true) {
             System.out.println("Enter which coffee you want : Espresso | Latte | Cappuccino "+"\n"+"Else enter 0 to exit from machine");

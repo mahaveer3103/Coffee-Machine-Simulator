@@ -52,7 +52,7 @@ public class CoffeeMachine {
             }
             float price = invoiceMap.getOrDefault("Cappuccino",0.0f)+cappuccino.getPrice();
             invoiceMap.put("Cappuccino",price);
-        }else{
+        }else if (!coffeeType.equals("0")){
             System.out.println("Please enter correct coffee name ");
         }
     }
